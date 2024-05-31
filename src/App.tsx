@@ -1,18 +1,21 @@
-import './App.css'
+import NavBar from './components/NavBar';
+import './index.css';
+import { Outlet } from 'react-router-dom';
+import './App.css';
+
 
 function App() {
   
 
   return (
-    <>
-      <div>
-        
-      </div>
-      <h1>Vite + React</h1>
+    <div className='App'>
+        <NavBar />
+        <Outlet />
+    </div>
+    
       
-      
-    </>
-  )
-}
+    
+  );
+};
 
 export default App
