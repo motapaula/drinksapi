@@ -1,16 +1,18 @@
-import NavBar from './components/NavBar';
-import './index.css';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 import './App.css';
 
+import NavBar from './components/NavBar';
 
-function App() {
-  
+
+
+
+
+function App() { 
 
   return (
     <div className='App'>
         <NavBar />
-        <Outlet />
+        <Outlet /> 
     </div>
     
       
@@ -18,4 +20,4 @@ function App() {
   );
 };
 
-export default App
+export default App;
