@@ -2,9 +2,7 @@ import { Outlet, Link } from 'react-router-dom';
 import './App.css';
 
 import NavBar from './components/NavBar';
-
-
-
+import SearchBar from './components/SearchBar';
 
 
 function App() { 
@@ -13,6 +11,7 @@ function App() {
     <div className='App'>
         <NavBar />
         <Outlet /> 
+        <SearchBar />
     </div>
     
       
