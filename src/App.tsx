@@ -3,6 +3,7 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import SearchBar from './components/SearchBar';
+import Footer from './components/Footer';
 
 
 function App() { 
@@ -12,10 +13,8 @@ function App() {
         <NavBar />
         <Outlet /> 
         <SearchBar />
+        <Footer />
     </div>
-    
-      
-    
   );
 };
 

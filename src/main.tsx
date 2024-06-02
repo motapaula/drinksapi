@@ -9,6 +9,7 @@ import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
 import Random from './pages/Random.tsx';
 import SearchResults from './pages/SearchResults.tsx';
+import Footer from './components/Footer.tsx';
 
 
 
