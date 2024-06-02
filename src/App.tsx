@@ -3,6 +3,7 @@ import './App.css';
 
 import NavBar from './components/NavBar';
 import SearchBar from './components/SearchBar';
+import Footer from './components/Footer';
 
 
 function App() { 
@@ -13,10 +14,8 @@ function App() {
         <h1>Bons Drink</h1>
         <Outlet /> 
         <SearchBar />
+        <Footer />
     </div>
-    
-      
-    
   );
 };
 
