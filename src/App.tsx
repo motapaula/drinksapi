@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='App'>
         <NavBar />
+        <h1>Bons Drink</h1>
         <Outlet /> 
         <SearchBar />
     </div>
