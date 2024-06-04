@@ -19,3 +19,9 @@ a {
 a:hover {
   color: #3b088f;
 }
+
+.dark-theme,
+.dark-theme a {
+  background-color: #333;
+  color: #fff;
+}
