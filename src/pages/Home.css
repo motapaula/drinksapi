@@ -108,7 +108,47 @@
   .footer span {
     color: #666;
   }
-
+  
   div div div div ul {
     font-size: small;
   }
+  
+  /* Estilos para o tema escuro */
+  .dark-theme body {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-theme .App {
+    background: #444;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-theme nav ul li a {
+    color: #bb86fc;
+  }
+  
+  .dark-theme nav ul li a:hover {
+    color: #3700b3;
+  }
+  
+  .dark-theme ul li {
+    background: #555;
+  }
+  
+  .dark-theme button {
+    background-color: #bb86fc;
+  }
+  
+  .dark-theme button:hover {
+    background-color: #3700b3;
+  }
+  
+  .dark-theme .footer {
+    background: #444;
+  }
+  
+  .dark-theme .footer span {
+    color: #ccc;
+  }
+  
