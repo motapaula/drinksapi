@@ -1,37 +1,46 @@
 import '../App.css';
-import SearchBar from '../components/SearchBar';
-import { Outlet, Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import Random from './Random';
+import { SearchForm } from '../components/SearchForm';
+import { Link } from 'react-router-dom';
 
-const apiBaseUrl_Search = ('https://www.thecocktaildb.com/api/json/v1/1/search.php');
-const apiBaseUrl_Random = ('https://www.thecocktaildb.com/api/json/v1/1/random.php');
+
 
 const Home = () => {
-  const [searchTerms, setSearchTerms] = useState([])
 
-  //Uso de função assíncrona para esperar o resultado da url.
+/*   const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState<Drink[]>([]);
 
-  const getSearchResult = async (url) => {
-    const res = await fetch(url)
-    const data = await res.json();
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const searchURL = `${apiBaseUrl_Search}?s=${searchTerm}`;
+
+    fetch(searchURL)
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.drinks) {
+          setSearchResults(data.drinks);
+        } else {
+          setSearchResults([]);
+        }
+      });
   };
-
-//useEffect executado depois da dependência da função (?)
-  useEffect(() => {
-
-    const getRandomResult = (apiBaseUrl_Random);
-
-    console.log(getRandomResult);
-
-  }, []);
+   */
 
 return (
-    <div>
+     <div>
         <h1>Home Page</h1>
-
-
+        <ul>
+            
+            <li>
+                <Link to="/random">Random</Link>
+            </li>
+            
+            <li>
+                <Link to="/search-results">Pesquise por um drink específico</Link>
+            </li>
+        </ul>
     </div>
+    
+    
 )
     
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import '../App.css';
 import axios from 'axios';
-import { Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Random() {
   const [loading, setLoading] = useState(false);
@@ -55,6 +55,10 @@ function Random() {
         {/* ... (loop repete para demais ingredientes) */}
       </ul>
       <button onClick={fetchDrinkHandler}>Buscar outro drink</button>
+      <Link to="/">
+        <button>Voltar para a Home</button>
+        
+      </Link>      
     </div>
   );
 }

@@ -5,10 +5,12 @@ import './index.css'
 import './App.css';
 import { BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+// Estrutura das páginas
 import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
 import Random from './pages/Random.tsx';
 import SearchResults from './pages/SearchResults.tsx';
+import DrinkCard from './components/DrinkCard.tsx';
 
 
 const router = createBrowserRouter([
