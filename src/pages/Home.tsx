@@ -1,4 +1,5 @@
 import '../App.css';
+import './Home.css';
 import { SearchForm } from '../components/SearchForm';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
