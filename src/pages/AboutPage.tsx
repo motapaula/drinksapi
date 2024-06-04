@@ -25,7 +25,7 @@ const ListaGrupo: React.FC = () => {
     { mat: 2022211510037, nome: "Bruna Souza", github: "https://github.com/brunamagalhaesdesouza", imagem: "https://avatars.githubusercontent.com/u/117234210?v=4" },
     { mat: 2022211510002, nome: "Helcius Cabral", github: "https://github.com/helcius", imagem: "https://avatars.githubusercontent.com/u/114032954?v=4" },
     { mat: 2022211510072, nome: "Ingrid Freitas", github: "https://github.com/ingridhfreitas", imagem: "https://avatars.githubusercontent.com/u/123700926?v=4" },
-    { mat: 2022211510027, nome: "Paula Mota", github: "https://github.com/motapaula", imagem: "https://via.placeholder.com/150" },
+    { mat: 2022211510027, nome: "Paula Mota", github: "https://github.com/motapaula", imagem: "https://avatars.githubusercontent.com/u/116240549?v=4" },
   ];
 
   return (
@@ -49,3 +49,6 @@ const AboutPage: React.FC = () => (
 );
 
 export default AboutPage;
+
+
+
