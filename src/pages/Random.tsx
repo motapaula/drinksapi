@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Random() {
   const [loading, setLoading] = useState(false);
-  const [drink, setDrink] = useState(null); // Store a single drink for display
+  const [drink, setDrink] = useState(null); // Guarda um único item para exibir.
 
   const apiBaseUrlRandom = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
 

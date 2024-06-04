@@ -12,23 +12,6 @@ const SearchResults = () => {
   const [search, setSearch] = useState([])
   const searchTerms = searchParams.get("q");
 
-  /* const {searchResult} = useParams()
-  const [drink, setDrink] = useState(null);
-
-  const getDrink = async(url) => {
-    const res = await fetch(url);
-    const data = await res.json();
-
-    setDrink(data);
-  }
-
-  useEffect(() => {
-    const apiUrlSearch = `${apiBaseUrl_Search}?s=${searchParams}`
-    getDrink(apiUrlSearch)
-  }, [])
- */
-
-
   return (
     <div>
         <h2>Você buscou por: <span className='search-text'>{searchTerms}</span></h2>
