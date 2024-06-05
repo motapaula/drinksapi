@@ -7,14 +7,15 @@ import Footer from './components/Footer';
 import Random from './pages/Random';
 import Home from './pages/Home';
 import { useContext } from 'react';
-import { ThemeContext } from './context/ThemeContext';
+import { ThemeContext, ThemeProvider } from './context/ThemeContext';
 
 
 function App() { 
   const {theme} = useContext(ThemeContext);
 
   return (
-    <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
+
+      <div className={`App ${theme === "dark" ? "dark-theme" : ""}`}>
         <NavBar />
         <h1>Bons Drink</h1>
         {/*<Home />*/}
@@ -24,7 +25,8 @@ function App() {
 
         <Footer />
 
-    </div>
+      </div>
+ 
   );
 };
 

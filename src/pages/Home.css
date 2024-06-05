@@ -114,12 +114,12 @@ div div div div ul {
 }
 
 /* Estilos para o tema escuro */
-.dark-theme body {
+body .dark-theme {
   background-color: #333;
   color: #fff;
 }
 
-.dark-theme .App {
+body .dark-theme .App {
   background: #444;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
