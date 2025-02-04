@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# 🍸 Sobre o Projeto Drinks API
+Fim de semana chegou, e você está querendo tomar um bom drink mas não sabe qual fazer?
+Então seja bem-vindo ao Drinks API, o site que transforma sua sede em inspiração! 
+Aqui, você pode pesquisar por um drink específico ou deixar a sorte decidir com uma sugestão aleatória diretamente do [The Cocktail Database](https://www.thecocktaildb.com/).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto foi criado para a disciplina Tecnologia em Front-End III, no semestre 2024.1.
+Composição do grupo: Beatriz Falcão, Bruna Souza, Helcius Cabral, Ingrid Freitas, Paula Mota.
 
-Currently, two official plugins are available:
+# 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Typescript + Vite.
 
-## Expanding the ESLint configuration
+Fetch API e Axios para requisições assíncronas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[The Cocktail Database](https://www.thecocktaildb.com/) para obter informações sobre drinks.
 
-- Configure the top-level `parserOptions` property like this:
+📚 Como Rodar Localmente
+1. Clone este repositório:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+git clone https://github.com/motapaula/drinksapi.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Acesse a pasta do projeto:
+
+```cd drinks api```
+
+3. Instale as dependências do projeto:
+
+```npm install```
+
+4. Inicie o servidor de desenvolvimento com Vite:
+
+```npm run dev```
+
+5. Acesse o link gerado no terminal para visualizar o projeto no navegador.
+
+6. Aproveite o conteúdo! 
+
+
+🍾 Aviso: O uso deste site pode resultar em um aumento considerável na sua popularidade em festas. Beba com moderação! 🥃
