@@ -14,7 +14,8 @@ Fetch API e Axios para requisições assíncronas.
 
 [The Cocktail Database](https://www.thecocktaildb.com/) para obter informações sobre drinks.
 
-📚 Como Rodar Localmente
+# 📚 Como Rodar Localmente
+
 1. Clone este repositório:
 
 git clone https://github.com/motapaula/drinksapi.git
